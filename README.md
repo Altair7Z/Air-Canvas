@@ -131,3 +131,25 @@ AirCanvasApp
 **Low FPS** — Reduce resolution in `air_canvas_app.py` (`CAP_PROP_FRAME_WIDTH/HEIGHT`), or lower `detection_confidence` in `HandTracker`.
 
 **Jittery strokes** — Lower `ema_alpha` in `HandTracker` (e.g. `0.2`) for smoother but slightly laggier tracking.
+
+
+---
+
+## 🐍 Python Version Compatibility
+
+> **Important:** This project is compatible **only with Python 3.8–3.11**.
+
+| Python Version | Support |
+|---|---|
+| 3.8 | ✅ Supported |
+| 3.9 | ✅ Supported |
+| 3.10 | ✅ Supported |
+| 3.11 | ✅ Supported |
+| 3.12+ | ❌ Not supported |
+
+For the most reliable installation, use **Python 3.10 or 3.11**, as the compatibility of `MediaPipe` and its related dependencies may vary across Python versions.
+
+Check your installed Python version with:
+
+```powershell
+python --version
