@@ -1,7 +1,7 @@
 # ✋ Air Canvas — Draw in the Air with Your Webcam
 
 Real-time virtual drawing application using **MediaPipe Hands** + **OpenCV**.
-Point your index finger at the webcam and paint in mid-air — no mouse, no touch screen.
+Point your index finger at the webcam and paint in mid-air. No mouse, no touch screen.
 
 ---
 
